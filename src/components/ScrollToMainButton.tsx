@@ -15,7 +15,7 @@ const ScrollToMainButton = () => {
 	return (
 		<button
 			onClick={scrollToMain}
-			className="fixed w-full h-10 bottom-0  flex flex-row items-center bg-[#D0D0D0] text-foreground transition-colors duration-300 focus:outline-none "
+			className="fixed w-full h-16 bottom-0  flex flex-row items-center bg-[#D0D0D0] text-foreground transition-colors duration-300 focus:outline-none "
 			aria-label="Scroll to main content"
 		>
 			<div className="w-[100vw] mt-3">

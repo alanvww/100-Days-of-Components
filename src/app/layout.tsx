@@ -8,8 +8,9 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-	title: '100 Days of Button',
-	description: '100 Days of Button by Alan Ren',
+	title: '100 Days of Components',
+	description:
+		'A showcase of components built with Tailwind CSS and Next.js by Alan Ren',
 };
 
 export default function RootLayout({

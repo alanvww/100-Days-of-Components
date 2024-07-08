@@ -40,6 +40,7 @@ const buttons = [
 const ButtonShowcase = () => {
 	return (
 		<div className="p-4">
+			<h2 className="text-4xl font-bold mb-8">Buttons</h2>
 			{buttons.map((button, index) => (
 				<div key={index} className="mb-8">
 					<h2 className="text-xl font-semibold mb-2">{button.name}</h2>
