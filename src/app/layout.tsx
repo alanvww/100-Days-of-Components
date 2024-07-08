@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import { Syne } from 'next/font/google';
 import './globals.css';
 
-const syne = Syne({ subsets: ['latin'] });
+const syne = Syne({
+	weight: '400',
+	subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
 	title: '100 Days of Button',
